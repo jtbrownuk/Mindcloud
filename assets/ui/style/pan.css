@@ -1,0 +1,50 @@
+.hover
+{
+    opacity: 0.5;
+    filter:alpha(opacity=50);   
+    -moz-opacity: 0.5;        
+}
+
+.button
+{
+    position: absolute;
+}
+
+.compass
+{
+    position: absolute;
+}
+
+div.pan
+{
+    z-index: 99999;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 0px;
+    right: 405px;
+}
+
+.mediumcloud
+{
+    position: absolute;
+    z-index: 99994;        
+    background-image: url('../images/cloud_medium.png');
+    width: 150px;
+    height: 75px;
+    opacity: 0.75;
+    filter:alpha(opacity=75);   
+    -moz-opacity: 0.75;             
+}
+
+.smallcloud
+{
+    position: absolute;
+    z-index: 99993;        
+    background-image: url('../images/cloud_small.png');
+    width: 75px;
+    height: 38px;
+    opacity: 0.5;
+    filter:alpha(opacity=50);   
+    -moz-opacity: 0.5;
+}

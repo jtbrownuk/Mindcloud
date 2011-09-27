@@ -1,0 +1,37 @@
+@import url('reset.css');
+
+*{
+ 
+}
+
+body{
+    overflow: hidden;
+    padding: 0; margin: 0;
+}
+
+#background
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #7abcff; /* Old browsers */
+    background: -moz-linear-gradient(   top, #4096ee 0%, #7abcff 100%); /* FF3.6+ */
+    background: -webkit-linear-gradient(top, #4096ee 0%, #7abcff 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(     top, #4096ee 0%, #7abcff 100%); /* Opera11.10+ */
+    background: -ms-linear-gradient(    top, #4096ee 0%, #7abcff 100%); /* IE10+ */
+}
+
+#moveme
+{
+    position: fixed;
+}
+
+#parallaxOne
+{
+    position: fixed;
+}
+
+#parallaxTwo
+{
+    position: fixed;
+}

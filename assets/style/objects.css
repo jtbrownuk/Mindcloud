@@ -1,0 +1,236 @@
+.object
+{
+    position: fixed;
+    z-index: 99995;    
+}
+
+.cloud
+{
+    background-image: url('../images/cloud.png');
+    width: 250px;
+    height: 125px;
+}
+    .cloudContent
+    {
+        color: #000;
+        position: absolute;
+        bottom: 10px;
+        padding: 5px;
+        left: 20px;
+        background-color: #eeeeee;
+        width: 180px;
+        height: 60px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;      
+        resize:none;   
+        overflow:hidden;        
+    }   
+    
+.imagecontainer
+{
+    width: 720px;
+    height: 431px;
+    position: fixed;
+    z-index: 100000;
+}
+
+.video
+{
+    background-image: url('../images/commentout.png');
+    width: 51px;
+    height: 70px;
+}
+
+.audiocontainer
+{
+    width: 300px;
+    height: 85px;
+    padding: 5px;
+    background-color: #7654ac;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;          
+}
+    .audioheader
+    {
+        border: 0;
+        width: 296px;
+        height: 25px;  
+        position: absolute;        
+        top: 25px;
+        color: #000;
+        resize:none;   
+        overflow:hidden;          
+    }
+
+    .audio
+    {
+        position: absolute;
+        left: 5px;
+        bottom: 5px;
+    }
+
+.videocontainer
+{
+    width: 400px;
+    height: 285px;
+    padding: 5px;
+    background-color: #7654ac;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;          
+}
+
+    .videoheader
+    {
+        border: 0;
+        width: 396px;
+        height: 25px;  
+        position: absolute;        
+        top: 25px;
+        color: #000;
+        resize:none;   
+        overflow:hidden;          
+    }
+    
+    .vInnerContainer
+    {
+        position: absolute;
+        bottom: 5px;
+    }
+    
+    video
+    {
+        position: absolute;
+        left: 5px;
+        bottom: 5px;        
+    }
+    
+.note
+{
+    width: 300px;
+    height: 350px;
+}
+    .note .noteheader
+    {
+        background-color: #f7f78e;
+        top: 0;
+        height: 50px;
+        width: 100%;
+    }
+
+    .note .notebody
+    {
+        color: #000;
+        border: 0px;
+        background-color: #fdfd9d;
+        bottom: 0;
+        height: 300px;
+        width: 296px;
+    }        
+
+.canvascontainer
+{
+    width: 300px;
+    height: 300px;
+    border: 1px dashed #eee;
+}    
+
+    .canvasheader
+    {
+        background-color: #000;
+        top: 0;
+        width: 300px;
+        height: 20px;
+    }  
+
+    .canvas
+    {
+        bottom: 0;
+        width: 300px;
+        height: 280px;
+        background-color: #fff;
+    }
+
+.comments
+{
+    position: absolute;
+    width: 100%;
+    left: -10px;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.6);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;     
+}
+
+    .comments a
+    {
+        color: #5474ac;
+        text-decoration: none;
+    }
+    
+    .comments a:hover
+    {
+        color: #5474ac;
+        text-decoration: underline;
+    }
+    
+    
+    .commentControls
+    {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding-left: 10px;
+        -webkit-border-radius: 0px 0px 5px 0px;
+        -moz-border-radius: 0px 0px 5px 0px;
+        border-radius: 0px 0px 5px 0px;
+        background-color: #fff;
+        width: 100px;
+        height: 20px;
+    }
+    .comments h1
+    {
+        position: absolute;
+        color: #000;   
+    }
+
+.controls
+{
+    background-color: rgba(50,50,50,0.5);
+    padding: 10px;
+    position: absolute;
+    right: -150px;
+    top: 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;        
+}    
+    .controls a
+    {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .controls a:hover
+    {
+        color: #fff;
+        text-decoration: underline;
+    }
+    
+    .controls h2
+    {
+        color: #fff;
+    }
+    
+    .socialControl
+    {
+        margin-top: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;      
+        padding: 5px;
+        background-color: #fff;
+    }

@@ -1,0 +1,111 @@
+<header id="menu">
+    <div id="leftMenu">
+        <span id="mainlogo"></span>
+    </div>   
+    <div id="abovepan">
+        <span id="abovepanleft"></span>
+        <span id="abovepanright"></span>
+    </div>
+    <div id="rightMenu">
+    </div>
+</header>
+
+<div class="pan">
+    <img class="button bp"
+         style="top: 0px; left: 30px;"
+         src="assets/ui/images/pan/tu.png"/>
+
+    <img class="button br" 
+         style="top: 30px; right: 0px;"         
+         src="assets/ui/images/pan/tr.png"/>
+
+    <img class="button bd" 
+         style="bottom: 0px; left: 30px;"         
+         src="assets/ui/images/pan/td.png"/>
+
+    <img class="button bl" 
+         style="top: 30px; left: 0px;"         
+         src="assets/ui/images/pan/tl.png"/>
+
+    <img class="compass"
+         style="top: 21px; left: 21px;"
+         src="assets/ui/images/pan/c.png"/>
+</div>
+
+<div id="dropdown">
+    <span class="shadow"></span>        
+    <div id="dropdownContent">
+        <a href=""><div id="profilepic"></div></a>                
+        <nav id="innerMenu">
+            <ul>
+                <li><a href="">Rooms</a></li>
+                <li><a href="">Profile</a></li>
+                <li><a href="">Account</a></li>
+                <?php //This is where the logout button will go?>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<div id="chat">
+    <textarea readonly="readonly">Node.js + Websockets will go here</textarea>
+    <p style="margin: 0px; padding: 0px;">Chat:</p>
+    <input type="text" 
+           autofocus="autofocus"/>
+</div>
+
+<div id="toolbar">
+    <div id="toolbarContent">        
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2"><h2 align="center">Drag 'n' drop</h2></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center" id="newIdea">
+                        <img data-type="idea" src="assets/ui/images/toolbar/cloud.png" alt="idea icon"/><br/>
+                        <span>Idea</span>
+                    </td>
+                    <td align="center" id="newImage">
+                        <img data-type="image" src="assets/ui/images/toolbar/image.png" alt="image icon"/><br/>
+                        <span>Image</span>                               
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" id="newAudio">
+                        <img data-type="audio" src="assets/ui/images/toolbar/audio.png" alt="audio icon"/><br/>
+                        <span>Audio</span>                              
+                    </td>
+                    <td align="center" id="newVideo">
+                        <img data-type="video" src="assets/ui/images/toolbar/video.png" alt="video icon"/><br/>
+                        <span>Video</span>                              
+                    </td>                        
+                </tr>
+                <tr>
+                    <td align="center" id="newNote">
+                        <img data-type="note" src="assets/ui/images/toolbar/note.png" alt="note icon"/><br/>
+                        <span>Note</span>                              
+                    </td>  
+                    <td align="center" id="newCanvas">
+                        <img data-type="canvas" src="assets/ui/images/toolbar/canvas.png" alt="canvas icon"/><br/>
+                        <span>Canvas</span>                              
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>            
+</div>
+
+<div id="help">
+    <h1 style="text-align: center;">Help</h1>
+</div>
+
+<div id="togglebar">
+    <div id="toggletool"><h1 class="togglehead">Toolbar</h1></div>
+    <div id="togglechat"><h1 class="togglehead">Chat</h1></div>
+    <div id="toggleoption"><h1 class="togglehead">Options</h1></div>
+    <div id="toggleall"><h1 class="togglehead">All</h1></div>
+    <div id="togglehelp"><h1 class="togglehead">Help</h1></div>
+</div>

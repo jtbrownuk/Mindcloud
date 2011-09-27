@@ -1,0 +1,307 @@
+/* Children of body i.e. GUI elements should be fixed */
+#menu, #leftMenu, #rightMenu, #abovepan, #dropdown, #chat, #help, #toolbar, #togglebar{
+    position: fixed;
+}
+
+#menu
+{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 25px;
+}    
+    #leftMenu
+    {
+        left: 0px;
+        z-index: 100000;        
+        height: 25px;
+        background-color: #dbdbdb;
+    }
+        #mainlogo
+        {
+        position: absolute;
+        top: 5px;
+        left: 50px;
+        width: 170px;
+        height: 88px;      
+        background: url('../images/mindcloud.png');            
+        }     
+        
+    #abovepan
+    {
+        z-index: 99998;        
+        width: 100px;
+        height: 25px;
+        top: 0px;
+        right: 400px;
+    }
+        #abovepanleft
+        {
+            position: absolute;
+            left: 0px;
+            width: 25px;
+            height: 25px;
+            background: url('../images/menutl.png');        
+        }
+
+        #abovepanright
+        {
+            position: absolute;
+            right: 0px;
+            width: 25px;
+            height: 25px;        
+            background: url('../images/menutr.png');        
+        }   
+        
+    #rightMenu
+    {
+        z-index: 99999;
+        top: 0px;
+        right: 0px;
+        width: 400px;
+        height: 25px;
+        background-color: #dbdbdb;
+    }    
+
+#dropdown
+{       
+    z-index: 99997;
+    width: 350px;
+    /* Adjusted top and right -5, to prevent annoying border colour glitch */
+    top: 20px;        
+    right: -5px;
+    padding: 10px;
+    background-color: #5474ac;
+    border: 5px dashed #0a3888;
+    -webkit-border-radius: 0px 0px 0px 20px;
+    -moz-border-radius: 0px 0px 0px 20px;
+    border-radius: 0px 0px 0px 20px;        
+}
+    
+    #innerMenu{
+        width: 60px;
+    }
+        #innerMenu ul
+        {
+            list-style: none;
+            padding-left: 0px;
+        }
+            #innerMenu ul li a
+            {
+                text-decoration: none;
+            }
+            #innerMenu ul li a:hover
+            {
+                text-decoration: underline;
+            }    
+
+    #profilepic
+    {
+        background: url('../images/profile.png');
+        float: right;
+        height: 150px;
+        width: 86px;
+        z-index: 100000;
+    }
+    
+    #dropdown .shadow
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 370px;
+        height: 4px;
+        background-repeat: repeat-x;
+        background: url('../images/shadow.png');  
+    }
+
+#chat
+{
+    padding: 10px;
+    z-index: 100000;
+    bottom: -5px;
+    right: -5px;
+    width: 360px;
+    height: 300px;       
+    background-color: #7654ac;   
+    border: 5px dashed #3a0a88;
+    -webkit-border-radius: 20px 0px 0px 0px;
+    -moz-border-radius: 20px 0px 0px 0px;
+    border-radius: 20px 0px 0px 0px;             
+}
+    #chat textarea
+    {
+        width:360px;
+        height: 250px;
+    }
+
+    #chat input
+    {
+        width: 360px;        
+    }
+
+#toolbar
+{
+    padding: 10px;        
+    left: -5px;
+    bottom: -5px;
+    height: 580px;
+    width: 180px;
+    z-index: 100000;
+    background-color: #9dac54;        
+    border: 5px dashed #73880a;
+    -webkit-border-radius: 0px 20px 0px 0px;
+    -moz-border-radius: 0px 20px 0px 0px;
+    border-radius: 0px 20px 0px 0px;      
+    color: #fff;
+}
+
+    #toolbarContent
+    {
+        width: 180px;
+        height: 580px;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        z-index: 100000;
+        padding: 0px;
+    }
+        #toolbarContent table thead tr th
+        {
+            padding: 5px;
+            width: 80px;
+            height: 20px;
+            z-index: 1000000;
+            background-color: #73880a;
+        }
+
+        #toolbarContent table tbody tr td
+        {    
+            padding-top: 5px;
+            width: 90px;
+            height: 80px;        
+            z-index: 1000000;
+            background-color: #73880a;
+        }
+        
+        #toolbarContent table tbody tr td:hover
+        {
+            background-color: #849c0c;
+        }
+        
+#help
+{
+    opacity: 0.9;
+    filter:alpha(opacity=90);   
+    -moz-opacity: 0.9;          
+    z-index: 1000000;
+    bottom: -550px;
+    left: 400px;
+    background-color: #808080;
+    border: 5px dashed #494949;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    border-radius: 20px 20px 20px 20px;        
+}
+
+#togglebar
+{
+    width: 600px;
+    height: 100px;
+    bottom: 0px;
+    left: 500px;
+    z-index: 100000;
+}
+
+    #togglebar div{
+        position: absolute;
+        bottom: 0px;
+        z-index: 100000;        
+    }
+    
+    #toggletool
+    {
+        width: 100px;
+        left: 0px;        
+        height: 35px;
+        background-color: #9dac54;        
+        border-top: 2px solid #73880a;
+        border-left: 2px solid #73880a;
+        border-right: 2px solid #73880a;
+        padding-top: 5px;
+        text-align: center;        
+        -webkit-border-radius: 10px 10px 0px 0px;
+        -moz-border-radius: 10px 10px 0px 0px;
+        border-radius: 10px 10px 0px 0px;         
+    }
+
+    #togglechat
+    {
+        width: 100px;
+        left: 110px;
+        height: 35px;
+        background-color: #7654ac;        
+        border-top: 2px solid #3a0a88;
+        border-left: 2px solid #3a0a88;
+        border-right: 2px solid #3a0a88; 
+        padding-top: 5px;
+        text-align: center;        
+        -webkit-border-radius: 10px 10px 0px 0px;
+        -moz-border-radius: 10px 10px 0px 0px;
+        border-radius: 10px 10px 0px 0px;          
+    }
+    
+    #toggleoption
+    {
+        width: 100px;
+        height: 35px;
+        left: 220px;  
+        background-color: #5474ac;        
+        border-top: 2px solid #0a3888;
+        border-left: 2px solid #0a3888;
+        border-right: 2px solid #0a3888; 
+        padding-top: 5px;
+        text-align: center;        
+        -webkit-border-radius: 10px 10px 0px 0px;
+        -moz-border-radius: 10px 10px 0px 0px;
+        border-radius: 10px 10px 0px 0px;            
+    }    
+
+    #toggleall
+    {
+        width: 100px;
+        height: 35px;
+        left: 330px;  
+        background-color: #ac5468;        
+        border-top: 2px solid #850524;
+        border-left: 2px solid #850524;
+        border-right: 2px solid #850524; 
+        padding-top: 5px;
+        text-align: center;        
+        -webkit-border-radius: 10px 10px 0px 0px;
+        -moz-border-radius: 10px 10px 0px 0px;
+        border-radius: 10px 10px 0px 0px;         
+    }   
+    
+    #togglehelp
+    {
+        width: 100px;
+        height: 35px;
+        left: 500px;    
+        background-color: #808080;
+        border-top: 2px solid #494949;
+        border-left: 2px solid #494949;
+        border-right: 2px solid #494949; 
+        padding-top: 5px;
+        text-align: center;        
+        -webkit-border-radius: 10px 10px 0px 0px;
+        -moz-border-radius: 10px 10px 0px 0px;
+        border-radius: 10px 10px 0px 0px;               
+    }   
+    
+    .togglehead
+    {
+        font-size: 1.2em;
+        color: #fff;         
+    }
+
